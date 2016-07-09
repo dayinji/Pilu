@@ -8,5 +8,4 @@
         <attr name="delayTime" format="integer"></attr>
     </declare-styleable>
 
-
 </resources>
