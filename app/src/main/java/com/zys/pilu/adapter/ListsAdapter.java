@@ -24,13 +24,14 @@ import java.util.List;
  * Created by tongyang on 16/7/9.
  */
 public class ListsAdapter extends BaseAdapter {
-    private Context context = AppContext.getInstance();
+    private Context context;
     private String[] catas = {"All", "Favorite", "Recommend", "Lately", "Old"};
     private int[] colors;
     // private String[] cataWords = {"全", "藏", "荐", "近", "久"};
     private String[] cataWords = {"A", "F", "R", "L", "O"};
 
-    public ListsAdapter() {
+    public ListsAdapter(Context c) {
+        context = c;
         colors = new int[5];
         colors[0] = context.getResources().getColor(R.color.fense);
         colors[1] = context.getResources().getColor(R.color.qingse);
