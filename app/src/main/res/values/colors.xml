@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <!--Useful-->
+    <color name="fense">#ffffb7a9</color>
+    <color name="qingse">#ff79bba4</color>
+    <color name="qingse_deep">#ff4a9172</color>
+    <color name="lanse">#ff72b3c7</color>
+    <color name="zise">#ffbf9dc6</color>
+    <color name="huangse">#fff7cb79</color>
+
+    <color name="bright_qingse">#ff26e38c</color>
+    <color name="bright_lanse">#ff34b3f7</color>
+    <color name="bright_huangse">#fff7f65d</color>
+    <color name="bright_hongse">#fff7725a</color>
+    <color name="bright_zise">#ffbd75f7</color>
+    <color name="bright_chengse">#fff79f48</color>
+
+    <color name="baise">#ffffffff</color>
+
+    <color name="qianhui">#ffD1D1D1</color>
+    <color name="qianhui_e">#ffe3e3e3</color>
+    <color name="qianbai">#fff8f8f8</color>
+
+    <!--Music Bar Color-->
+    <color name="musicBarBg">#55000000</color>
+    <color name="indicator">#ffffffff</color>
+    <color name="havePlayed">#ffffffff</color>
+
+    <!--Translucent Color-->
+    <color name="translucent_white">#aaffffff</color>
+    <color name="translucent_black">#bb000000</color>
 </resources>

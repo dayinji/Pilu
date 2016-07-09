@@ -2,4 +2,22 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Font Size-->
+    <dimen name="font_small">12dp</dimen>
+    <dimen name="font_medium">15dp</dimen>
+    <dimen name="font_large">20dp</dimen>
+    <dimen name="font_xlarge">30dp</dimen>
+    <dimen name="font_xxlarge">50dp</dimen>
+
+    <!--Image Size-->
+    <dimen name="image_small">40dp</dimen>
+    <dimen name="image_medium">60dp</dimen>
+    <dimen name="image_large">100dp</dimen>
+    <dimen name="image_xlarge">120dp</dimen>
+
+    <!--Music Control-->
+    <dimen name="music_control_small">25dp</dimen>
+    <dimen name="music_control_medium">40dp</dimen>
+    <dimen name="music_control_large">60dp</dimen>
 </resources>
