@@ -1,15 +1,26 @@
 package com.zys.pilu.activities;
 
 import android.graphics.drawable.Drawable;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.ViewGroup;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import com.zys.pilu.R;
 import com.zys.pilu.customviews.DragView;
+import com.zys.pilu.fragments.Artists;
+import com.zys.pilu.fragments.Home;
+import com.zys.pilu.fragments.Lists;
+import com.zys.pilu.fragments.Settings;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class pilu extends AppCompatActivity {
     private String TAG = "Yobey";
@@ -22,6 +33,11 @@ public class pilu extends AppCompatActivity {
     private ViewPager pager;
 
     private int currentFragment = 0;
+
+    private Home home;
+    private Lists lists;
+    private Artists artist;
+    private Settings settings;
 
     private Drawable homeDrawableWhite;
     private Drawable listDrawableWhite;
@@ -39,6 +55,7 @@ public class pilu extends AppCompatActivity {
 
         findViewsById();
         setOnClickListener();
+        initPager();
         dragView.setAnimation(0);
 
         initTabs();
@@ -87,6 +104,41 @@ public class pilu extends AppCompatActivity {
                 }
             }
         });
+
+    }
+    private void initPager() {
+        home = new Home();
+        lists = new Lists();
+        artist = new Artists();
+        settings = new Settings();
+
+        List<Fragment> list = new ArrayList<>();
+        list.add(home);
+        list.add(lists);
+        list.add(artist);
+        list.add(settings);
+        pager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(), list));
+        pager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                dragView.setAnimation(position);
+                tabs.check(position);
+                RadioButton[] tabs = {tab_home, tab_list, tab_artist, tab_player};
+                setWhiteText(tabs[position], position);
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
+        pager.setAlwaysDrawnWithCacheEnabled(true);
+        pager.setHorizontalFadingEdgeEnabled(false);
     }
     private void initTabs() {
         homeDrawableWhite = getResources().getDrawable(R.drawable.home_white);
@@ -130,5 +182,25 @@ public class pilu extends AppCompatActivity {
         tab.setTextColor(getResources().getColor(R.color.baise));
         tab.setCompoundDrawables(null, temps[position], null, null);
 
+    }
+    private class MyPagerAdapter extends FragmentPagerAdapter {
+        private List<Fragment> fragmentList;
+        public MyPagerAdapter(FragmentManager fm, List<Fragment> list) {
+            super(fm);
+            this.fragmentList = list;
+        }
+        @Override
+        public int getCount() {
+            return fragmentList.size();
+        }
+        @Override
+        public Fragment getItem(int arg0) {
+            return fragmentList.get(arg0);
+        }
+        @Override
+        public void destroyItem (ViewGroup container, int position, Object object) {
+            // Never Destroy Fragment for Preventing from Getting stuck!
+            return;
+        }
     }
 }
