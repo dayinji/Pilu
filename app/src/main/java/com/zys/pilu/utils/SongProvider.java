@@ -67,7 +67,6 @@ public class SongProvider {
                 long id = cursor.getLong(cursor.getColumnIndex(MediaStore.Audio.Media._ID));
                 byte[] data = cursor.getBlob(cursor.getColumnIndex(MediaStore.Audio.Media.DATA));
                 String fileName = new String(data, 0, data.length - 1);
-                Log.e(TAG, "filename = " + fileName);
                 mmr.setDataSource(fileName);
                 String name = cursor.getString(cursor.getColumnIndex(MediaStore.Audio.Media.TITLE));
                 // test

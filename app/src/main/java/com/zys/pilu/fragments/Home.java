@@ -219,7 +219,7 @@ public class Home extends Fragment {
                 getActivity().startService(intent);
 
                 // Init Notify
-                SharedPreferences sharedPref = getActivity().getSharedPreferences(
+               /* SharedPreferences sharedPref = getActivity().getSharedPreferences(
                         Constants.Preferences.PREFERENCES_KEY, Context.MODE_PRIVATE);
                 int hasNotify = sharedPref.getInt(Constants.Preferences.PREFERENCES_NOTIFY, Context.MODE_PRIVATE);
                 if (hasNotify == 1) {
@@ -234,7 +234,7 @@ public class Home extends Fragment {
                     intent1.putExtra("hasNotify", false);
                     intent1.putExtra("controlMsg", Constants.PlayerControl.UPDATE_NOTIFY);
                     getActivity().startService(intent1);
-                }
+                }*/
 
             }
         });
@@ -287,7 +287,8 @@ public class Home extends Fragment {
         @Override
         public void onClick(View view) {
             Intent intent = new Intent();
-            intent.setAction("com.badprinter.yobey.service.PLAYER_SERVICE");
+            intent.setAction("com.zys.pilu.service.PLAYER_SERVICE");
+            intent.setPackage(getActivity().getPackageName());
             switch (view.getId()) {
                 case R.id.playBt:
                     if (isPlay == false) {
@@ -296,6 +297,7 @@ public class Home extends Fragment {
                         intent.putExtra("controlMsg", Constants.PlayerControl.PAUSE_PLAYING_MSG);
                     }
                     getActivity().startService(intent);
+                    Log.e(TAG, "play click");
                     break;
                 case R.id.nextBt:
                     intent.putExtra("controlMsg", Constants.PlayerControl.NEXT_SONG_MSG);

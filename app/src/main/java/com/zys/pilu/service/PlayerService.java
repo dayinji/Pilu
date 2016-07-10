@@ -148,7 +148,7 @@ public class PlayerService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags,  int startId) {
-
+        Log.e(TAG, "intent == null? " + (intent == null));
         switch (intent.getExtras().getString("controlMsg")) {
             case Constants.PlayerControl.PRE_SONG_MSG:
                 if (currentTime > 20*1000 && currentTime < duration - 30*1000)
