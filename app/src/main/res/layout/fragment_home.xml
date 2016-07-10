@@ -1,13 +1,166 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zys.pilu.fragments.Home">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    tools:context="com.zys.pilu.fragments.Home"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/player"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/qingse">
 
-</FrameLayout>
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/playingPhoto"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="#00ffffff"
+            android:layout_width="@dimen/image_xlarge"
+            android:layout_height="@dimen/image_xlarge"
+            app:border_width="5dp"
+            app:border_color="@color/qianbai"/>
+
+        <com.zys.pilu.customviews.WaveView
+            xmlns:wave="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/waveBar"
+            android:layout_width="@dimen/image_xlarge"
+            android:layout_height="@dimen/image_xlarge"
+            android:background="#00ffffff"
+            android:layout_alignTop="@id/playingPhoto"
+            android:layout_alignLeft="@id/playingPhoto"
+
+            wave:above_wave_color="@color/qingse"
+            wave:blow_wave_color="@color/qingse"
+            wave:progress="0"
+            wave:wave_height="little"
+            wave:wave_hz="normal"
+            wave:wave_length="middle" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_alignTop="@id/playingPhoto"
+            android:layout_alignLeft="@id/playingPhoto"
+            android:background="#00ffffff"
+            android:layout_width="@dimen/image_xlarge"
+            android:layout_height="@dimen/image_xlarge"
+            android:src="@drawable/transparent"
+
+            app:border_width="5dp"
+            app:border_color="@color/qianbai"/>
+
+        <TextView
+            android:id="@+id/playingName"
+            android:text="Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_large"
+            android:textColor="@color/qianbai"
+            android:layout_below="@id/playingPhoto"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/playingArtist"
+            android:text="artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_medium"
+            android:textColor="@color/qingse_deep"
+            android:layout_below="@id/playingName"
+            android:layout_centerHorizontal="true"/>
+        <LinearLayout
+            android:id="@+id/musicControlLayout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:background="@color/qingse"
+            android:divider="?android:attr/dividerHorizontal"
+            android:showDividers="middle"
+            android:dividerPadding="20dp">
+
+            <ImageView
+                android:id="@+id/preBt"
+                android:layout_width="@dimen/music_control_medium"
+                android:layout_height="@dimen/music_control_medium"
+                android:src="@drawable/playpre_00000"
+                android:background="@drawable/click_bg"
+                android:clickable="true"
+                android:layout_margin="5dp"/>
+            <ImageView
+                android:id="@+id/playBt"
+                android:layout_width="@dimen/music_control_large"
+                android:layout_height="@dimen/music_control_large"
+                android:src="@drawable/playtopause_00000"
+                android:clickable="true"
+                android:layout_margin="5dp" />
+            <ImageView
+                android:id="@+id/nextBt"
+                android:layout_width="@dimen/music_control_medium"
+                android:layout_height="@dimen/music_control_medium"
+                android:src="@drawable/playnext_00000"
+                android:background="@drawable/click_bg"
+                android:clickable="true"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <in.srain.cube.views.ptr.PtrFrameLayout
+        android:id="@+id/ptrFrame"
+        xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+
+        cube_ptr:ptr_resistance="2.5"
+        cube_ptr:ptr_ratio_of_header_height_to_refresh="0.6"
+        cube_ptr:ptr_duration_to_close="300"
+        cube_ptr:ptr_duration_to_close_header="500"
+        cube_ptr:ptr_keep_header_when_refresh="true"
+        cube_ptr:ptr_pull_to_fresh="false" >
+
+        <RelativeLayout
+            android:background="@color/qingse"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/bear"
+                android:src="@drawable/bear"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="55dp"
+                android:layout_height="55dp"/>
+            <TextView
+                android:id="@+id/msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下拉刷新"
+                android:textSize="@dimen/font_medium"
+                android:textColor="@color/qianbai"
+                android:layout_toRightOf="@id/bear"
+                android:paddingTop="20dp"
+                android:layout_alignTop="@id/bear"
+                android:layout_marginLeft="10dp"/>
+            <ImageView
+                android:id="@+id/cd"
+                android:src="@drawable/cd"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_toLeftOf="@id/bear"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/countList"
+            android:divider="@null"
+            android:background="@color/qianbai"
+            android:dividerHeight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </in.srain.cube.views.ptr.PtrFrameLayout>
+
+</LinearLayout>

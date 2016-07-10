@@ -23,11 +23,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".service.PlayerService" >
+
+        <service android:name=".service.PlayerService">
             <intent-filter>
                 <action android:name="com.zys.pilu.service.PLAYER_SERVICE" />
             </intent-filter>
         </service>
+
+        <activity android:name=".activities.Player"></activity>
     </application>
 
 </manifest>
