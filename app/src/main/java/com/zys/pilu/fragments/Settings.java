@@ -92,13 +92,14 @@ public class Settings extends Fragment implements View.OnClickListener{
         int hasNotify = sharedPref.getInt(Constants.Preferences.PREFERENCES_NOTIFY, 1);
         if (hasNotify == 1) {
             notifySwitch.setState(true);
-            Intent intent = new Intent("com.badprinter.yobey.service.PLAYER_SERVICE");
+            Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
+            intent.setPackage(getActivity().getPackageName());
             intent.putExtra("hasNotify", true);
             intent.putExtra("controlMsg", Constants.PlayerControl.UPDATE_NOTIFY);
             getActivity().startService(intent);
         } else {
             notifySwitch.setState(false);
-            Intent intent = new Intent("com.badprinter.yobey.service.PLAYER_SERVICE");
+            Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
             intent.putExtra("hasNotify", false);
             intent.putExtra("controlMsg", Constants.PlayerControl.UPDATE_NOTIFY);
             getActivity().startService(intent);
@@ -180,7 +181,7 @@ public class Settings extends Fragment implements View.OnClickListener{
                 SharedPreferences.Editor editor = sharedPref.edit();
                 editor.putInt(Constants.Preferences.PREFERENCES_WINDOWLYRIC_SHOW, 1);
                 editor.commit();
-                Intent intent = new Intent("com.badprinter.yobey.service.PLAYER_SERVICE");
+                Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
                 intent.putExtra("isShow", true);
                 intent.putExtra("controlMsg", Constants.PlayerControl.UPDATE_WINDOWLYRIC);
                 getActivity().startService(intent);
@@ -191,7 +192,7 @@ public class Settings extends Fragment implements View.OnClickListener{
                 SharedPreferences.Editor editor = sharedPref.edit();
                 editor.putInt(Constants.Preferences.PREFERENCES_WINDOWLYRIC_SHOW, 0);
                 editor.commit();
-                Intent intent = new Intent("com.badprinter.yobey.service.PLAYER_SERVICE");
+                Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
                 intent.putExtra("isShow", false);
                 intent.putExtra("controlMsg", Constants.PlayerControl.UPDATE_WINDOWLYRIC);
                 getActivity().startService(intent);
@@ -204,7 +205,7 @@ public class Settings extends Fragment implements View.OnClickListener{
                 SharedPreferences.Editor editor = sharedPref.edit();
                 editor.putInt(Constants.Preferences.PREFERENCES_NOTIFY, 1);
                 editor.commit();
-                Intent intent = new Intent("com.badprinter.yobey.service.PLAYER_SERVICE");
+                Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
                 intent.putExtra("hasNotify", true);
                 intent.putExtra("controlMsg", Constants.PlayerControl.UPDATE_NOTIFY);
                 getActivity().startService(intent);
@@ -215,7 +216,7 @@ public class Settings extends Fragment implements View.OnClickListener{
                 SharedPreferences.Editor editor = sharedPref.edit();
                 editor.putInt(Constants.Preferences.PREFERENCES_NOTIFY, 0);
                 editor.commit();
-                Intent intent = new Intent("com.badprinter.yobey.service.PLAYER_SERVICE");
+                Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
                 intent.putExtra("hasNotify", false);
                 intent.putExtra("controlMsg", Constants.PlayerControl.UPDATE_NOTIFY);
                 getActivity().startService(intent);

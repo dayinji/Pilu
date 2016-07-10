@@ -24,6 +24,7 @@ public class DBManager {
     private SimpleDateFormat dateFormat = new SimpleDateFormat("MM-dd", Locale.CHINA);
 
     public DBManager() {
+        Log.e("db", "app is null ?  " + (AppContext.getInstance() == null));
         helper = new DBHelper(AppContext.getInstance());
         db = helper.getWritableDatabase();
     }
