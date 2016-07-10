@@ -1,13 +1,41 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pinyin="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zys.pilu.fragments.Artists"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.zys.pilu.fragments.Artists">
+    android:layout_height="0dp"
+    android:layout_weight="10">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="horizontal">
 
-</FrameLayout>
+        <ListView
+            android:id="@+id/artistList"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@color/qianbai"/>
+        <com.zys.pilu.customviews.PinyinBar
+            android:id="@+id/pinyinBar"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+
+            pinyin:pinyinBackgroundColor="@color/qianbai"
+            pinyin:pinyinselectedColor="@color/qingse"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/selectorText"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:alpha="0"
+        android:textColor="@color/qingse"
+        android:textSize="@dimen/font_xlarge"
+        android:background="@drawable/round_bg"/>
+</RelativeLayout>
