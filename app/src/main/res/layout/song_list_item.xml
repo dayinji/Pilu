@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <com.indris.material.RippleView
+        android:id="@+id/rippleView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="@color/qianbai"
+        ripple:alphaFactor="0.7"
+        ripple:rippleColor="@color/qingse"
+        ripple:hover="true"
+        android:textColor="@color/qingse" />
+    <ImageView
+        android:id="@+id/songCata"
+        android:padding="25dp"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:src="@drawable/like_grey"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/songCata">
+        <TextView
+            android:id="@+id/songName"
+            android:textSize="@dimen/font_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f80707" />
+        <TextView
+            android:id="@+id/songArtist"
+            android:textSize="@dimen/font_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_small"
+        android:textColor="@color/qianhui"
+        android:shadowColor="#fb0404" />
+
+
+</RelativeLayout>
