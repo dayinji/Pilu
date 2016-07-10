@@ -1,11 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <declare-styleable name="MusicBar">
+        <attr name="max" format="integer"></attr>
+        <attr name="progress" format="integer"></attr>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="havePlayedColor" format="color"/>
+        <attr name="barHeight" format="dimension"></attr>
+        <attr name="indicatorColor" format="color"></attr>
+        <attr name="indicatorRadius" format="dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="AdujustBar">
+        <attr name="adjustMax" format="integer"></attr>
+        <attr name="adjustProgress" format="integer"></attr>
+        <attr name="adjustBackgroundColor" format="color"/>
+        <attr name="adjustHavePlayedColor" format="color"/>
+        <attr name="adjustBarHeight" format="dimension"></attr>
+        <attr name="adjustBarRadius" format="dimension"></attr>
+        <attr name="adjustIndicatorId" format="reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="PinyinBar">
+        <attr name="pinyinBackgroundColor" format="color"/>
+        <attr name="pinyinselectedColor" format="color"/>
+    </declare-styleable>
 
     <declare-styleable name="DragView">
         <attr name="myBackgroundColor" format="color"></attr>
         <attr name="dragColor" format="color"></attr>
         <attr name="borderRadius" format="integer"></attr>
         <attr name="delayTime" format="integer"></attr>
+    </declare-styleable>
+    <declare-styleable name="WaveView">
+        <attr name="above_wave_color" format="color"/>
+        <attr name="blow_wave_color" format="color"/>
+        <attr name="wave_progress" format="integer"/>
+        <attr name="wave_length" format="enum">
+            <enum name="large" value="1"/>
+            <enum name="middle" value="2"/>
+            <enum name="little" value="3"/>
+        </attr>
+        <attr name="wave_height" format="enum">
+            <enum name="large" value="1"/>
+            <enum name="middle" value="2"/>
+            <enum name="little" value="3"/>
+        </attr>
+        <attr name="wave_hz" format="enum">
+            <enum name="fast" value="1"/>
+            <enum name="normal" value="2"/>
+            <enum name="slow" value="3"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="waveViewStyle" format="reference"/>
     </declare-styleable>
 
 </resources>

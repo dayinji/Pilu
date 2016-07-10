@@ -1,7 +1,6 @@
 <resources>
 
     <!-- Base application theme. -->
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
 
@@ -11,23 +10,6 @@
 
         <!-- Support library compatibility -->
         <item name="actionBarStyle">@style/MyActionBar</item>
-    </style>
-
-    <!--MyActionBar-->
-    <style name="MyActionBar"
-        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@color/qianbai</item>
-        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
-        <!-- Support library compatibility -->
-        <item name="background">@color/qianbai</item>
-        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
-        <item name="elevation">0dp</item>
-    </style>
-
-    <!-- ActionBar title text -->
-    <style name="MyActionBarTitleText"
-        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
-        <item name="android:textColor">@color/qingse</item>
     </style>
 
     <!--Full Screen-->
@@ -48,5 +30,81 @@
         <item name="android:drawablePadding">-5dp</item>
         <item name="android:padding">4dp</item>
     </style>
+
+    <!--MyActionBar-->
+    <style name="MyActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/qianbai</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+        <!-- Support library compatibility -->
+        <item name="background">@color/qianbai</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText"
+        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/qingse</item>
+    </style>
+
+    <!--Setting Icons Style-->
+    <style name="settingIconStyle">
+        <item name="android:padding">25dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:background">@color/qingse</item>
+    </style>.
+
+    <!--Settings Ripple Style-->
+    <style name="settingRippleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@color/qianbai</item>
+        <item name="alphaFactor">0.7</item>
+        <item name="rippleColor">@color/qingse</item>
+        <item name="hover">true</item>
+    </style>.
+    <!--Settings Title Style-->
+    <style name="settingTiteStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/qingse</item>
+    </style>.
+    <!--Settings Detail Style-->
+    <style name="settingDetailStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/qianhui</item>
+        <item name="android:layout_marginTop">3dp</item>
+    </style>.
+
+    <!--Settings Night_TextView Style-->
+    <style name="settingsNightButtonStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@color/qianbai</item>
+        <item name="android:textColor">@color/qingse</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+    </style>
+
+    <!--Settings AdjustBar Style-->
+    <style name="settingsAdjustBarStyle">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="adjustMax">100</item>
+        <item name="adjustProgress">50</item>
+        <item name="adjustBackgroundColor">@color/qianhui_e</item>
+        <item name="adjustBarHeight">15dp</item>
+        <item name="adjustBarRadius">5dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
 
 </resources>
