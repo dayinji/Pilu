@@ -287,7 +287,7 @@ public class Home extends Fragment {
         @Override
         public void onClick(View view) {
             Intent intent = new Intent();
-            intent.setAction("com.zys.pilu.service.PLAYER_SERVICE");
+            intent.setAction("com.zys.pil.service.PLAYER_SERVICE");
             intent.setPackage(getActivity().getPackageName());
             switch (view.getId()) {
                 case R.id.playBt:

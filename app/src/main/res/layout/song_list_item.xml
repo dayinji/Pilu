@@ -34,12 +34,13 @@
             android:textSize="@dimen/font_medium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#f80707" />
+            android:textColor="@color/qingse"/>
         <TextView
             android:id="@+id/songArtist"
             android:textSize="@dimen/font_small"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/qianhui" />
     </LinearLayout>
 
     <TextView
