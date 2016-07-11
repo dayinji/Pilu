@@ -4,6 +4,7 @@ import com.zys.pilu.R;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -414,9 +415,9 @@ public class Settings extends Fragment implements View.OnClickListener{
      */
     private void showAdjustDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-
-        View view = LayoutInflater.from(getActivity()).inflate(R.layout.dialog_adjust, null);
-
+        Log.e("eeee","here");
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.dialog_adjust, null);
+        Log.e("eeee","here222");
         final AdjustBar adjustFavoriteSongBar = (AdjustBar)view.findViewById(R.id.adjustFavoriteSongBar);
         final AdjustBar adjustFavoriteArtistBar = (AdjustBar)view.findViewById(R.id.adjustFavoriteArtistBar);
         final AdjustBar adjustRecentBar = (AdjustBar)view.findViewById(R.id.adjustRecentBar);

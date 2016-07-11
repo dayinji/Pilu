@@ -4,7 +4,7 @@
     xmlns:ripple="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.badprinter.yobey.fragments.Settings"
+    tools:context="com.zys.pilu.fragments.Settings"
     android:orientation="vertical"
     android:background="@color/qianbai"
     android:divider="?android:attr/dividerHorizontal"
@@ -208,10 +208,10 @@
             android:layout_marginLeft="15dp">
             <TextView
                 android:id="@+id/aboutTitle"
-                android:text="关于YoBey"
+                android:text="关于Pilu"
                 style="@style/settingTiteStyle"/>
             <TextView
-                android:text="在这里 / 了解YoBey"
+                android:text="在这里 / 了解Pilu"
                 style="@style/settingDetailStyle"/>
         </LinearLayout>
     </RelativeLayout>
@@ -236,10 +236,10 @@
             android:layout_marginLeft="15dp">
             <TextView
                 android:id="@+id/exitTitle"
-                android:text="关闭YoBey"
+                android:text="关闭Pilu"
                 style="@style/settingTiteStyle"/>
             <TextView
-                android:text="关闭YoBey / 期待下次相遇"
+                android:text="关闭Pilu / 期待下次相遇"
                 style="@style/settingDetailStyle"/>
         </LinearLayout>
     </RelativeLayout>

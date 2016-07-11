@@ -78,22 +78,22 @@
                 android:text="很久没听"/>
         </LinearLayout>
     </LinearLayout>
-    <com.zys.pilu.customviews.AdjustBar.customviews.AdjustBar
+    <com.zys.pilu.customviews.AdjustBar
         android:id="@+id/adjustFavoriteSongBar"
         app:adjustIndicatorId="@drawable/adjust_favorite_song_white"
         app:adjustHavePlayedColor="@color/fense"
         style="@style/settingsAdjustBarStyle"/>
-    <com.zys.pilu.customviews.AdjustBar.customviews.AdjustBar
+    <com.zys.pilu.customviews.AdjustBar
         android:id="@+id/adjustFavoriteArtistBar"
         app:adjustIndicatorId="@drawable/adjust_artist_white"
         app:adjustHavePlayedColor="@color/lanse"
         style="@style/settingsAdjustBarStyle"/>
-    <com.zys.pilu.customviews.AdjustBar.customviews.AdjustBar
+    <com.zys.pilu.customviews.AdjustBar
         android:id="@+id/adjustRecentBar"
         app:adjustIndicatorId="@drawable/adjust_recent_white"
         app:adjustHavePlayedColor="@color/zise"
         style="@style/settingsAdjustBarStyle"/>
-    <com.zys.pilu.customviews.AdjustBar.customviews.AdjustBar
+    <com.zys.pilu.customviews.AdjustBar
         android:id="@+id/adjustAgoBar"
         app:adjustIndicatorId="@drawable/adjust_ago_white"
         app:adjustHavePlayedColor="@color/qingse"
