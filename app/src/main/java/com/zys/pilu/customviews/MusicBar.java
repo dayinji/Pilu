@@ -22,8 +22,8 @@ import com.zys.pilu.R;
  */
 public class MusicBar extends View {
     private final String TAG = "MusicBar";
-    private Paint paint;
     private int max;
+    private Paint paint;
     private int progress;
     private int backgroundColor;
     private int havePlayedColor;
