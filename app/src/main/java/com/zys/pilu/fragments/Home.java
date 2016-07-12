@@ -41,7 +41,7 @@ import in.srain.cube.views.ptr.indicator.PtrIndicator;
 
 public class Home extends Fragment {
 
-    private String TAG = "HOME1";
+    private String TAG = "HOME";
     private View root;
     private CircleImageView playingPhoto;
     private ImageView preBt;
@@ -202,7 +202,7 @@ public class Home extends Fragment {
                  * Init Service
                  */
                 Intent intentInitService = new Intent();
-                intentInitService.setAction("com.badprinter.yobey.service.PLAYER_SERVICE");
+                intentInitService.setAction("com.zys.pilu.service.PLAYER_SERVICE");
                 intentInitService.setPackage(getActivity().getPackageName());
                 intentInitService.putExtra("controlMsg", Constants.PlayerControl.INIT_SERVICE);
                 intentInitService.putExtra("listName", listName);
@@ -213,7 +213,7 @@ public class Home extends Fragment {
                  * Init the Bottom Control Area
                  */
                 Intent intent = new Intent();
-                intent.setAction("com.badprinter.yobey.service.PLAYER_SERVICE");
+                intent.setAction("com.zys.pilu.service.PLAYER_SERVICE");
                 intent.setPackage(getActivity().getPackageName());
                 intent.putExtra("controlMsg", Constants.PlayerControl.INIT_GET_CURRENT_INFO);
                 getActivity().startService(intent);

@@ -254,10 +254,12 @@ public class SongListAdapter extends BaseAdapter {
 
                 changeListIntent.putExtra("controlMsg", Constants.PlayerControl.CHANGE_LIST);
                 changeListIntent.putExtra("listName", listName);
+                changeListIntent.setPackage(context.getPackageName());
                 context.startService(changeListIntent);
                 context.startService(changeListIntent);
                 // Intent for Playing Music
                 Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
+                intent.setPackage(context.getPackageName());
                 intent.putExtra("controlMsg", Constants.PlayerControl.PLAYING_MSG);
                 intent.putExtra("current", position);
                 intent.putExtra("currenTime", 0);
