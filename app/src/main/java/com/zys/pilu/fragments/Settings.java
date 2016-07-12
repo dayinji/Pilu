@@ -183,6 +183,7 @@ public class Settings extends Fragment implements View.OnClickListener{
                 editor.putInt(Constants.Preferences.PREFERENCES_WINDOWLYRIC_SHOW, 1);
                 editor.commit();
                 Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
+                intent.setPackage(getActivity().getPackageName());
                 intent.putExtra("isShow", true);
                 intent.putExtra("controlMsg", Constants.PlayerControl.UPDATE_WINDOWLYRIC);
                 getActivity().startService(intent);
@@ -194,6 +195,7 @@ public class Settings extends Fragment implements View.OnClickListener{
                 editor.putInt(Constants.Preferences.PREFERENCES_WINDOWLYRIC_SHOW, 0);
                 editor.commit();
                 Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
+                intent.setPackage(getActivity().getPackageName());
                 intent.putExtra("isShow", false);
                 intent.putExtra("controlMsg", Constants.PlayerControl.UPDATE_WINDOWLYRIC);
                 getActivity().startService(intent);
@@ -218,6 +220,7 @@ public class Settings extends Fragment implements View.OnClickListener{
                 editor.putInt(Constants.Preferences.PREFERENCES_NOTIFY, 0);
                 editor.commit();
                 Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
+                intent.setPackage(getActivity().getPackageName());
                 intent.putExtra("hasNotify", false);
                 intent.putExtra("controlMsg", Constants.PlayerControl.UPDATE_NOTIFY);
                 getActivity().startService(intent);
