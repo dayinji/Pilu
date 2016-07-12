@@ -34,6 +34,7 @@ import com.leaking.slideswitch.SlideSwitch;
 import com.zys.pilu.common.Constants;
 import com.zys.pilu.customviews.AdjustBar;
 import com.indris.material.RippleView;
+import com.zys.pilu.service.PlayerService;
 
 public class Settings extends Fragment implements View.OnClickListener{
     private final String TAG="Settings";
@@ -101,6 +102,7 @@ public class Settings extends Fragment implements View.OnClickListener{
         } else {
             notifySwitch.setState(false);
             Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
+            intent.setPackage(getActivity().getPackageName());
             intent.putExtra("hasNotify", false);
             intent.putExtra("controlMsg", Constants.PlayerControl.UPDATE_NOTIFY);
             getActivity().startService(intent);
@@ -209,6 +211,7 @@ public class Settings extends Fragment implements View.OnClickListener{
                 editor.putInt(Constants.Preferences.PREFERENCES_NOTIFY, 1);
                 editor.commit();
                 Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
+                intent.setPackage(getActivity().getPackageName());
                 intent.putExtra("hasNotify", true);
                 intent.putExtra("controlMsg", Constants.PlayerControl.UPDATE_NOTIFY);
                 getActivity().startService(intent);
@@ -269,6 +272,9 @@ public class Settings extends Fragment implements View.OnClickListener{
                 exitYesBt.setTextColor(getResources().getColor(R.color.baise));
                 Runnable exitYesRun = new Runnable() {
                     public void run() {
+                        Intent intent = new Intent(getActivity(), PlayerService.class);
+                        intent.setPackage(getActivity().getPackageName());
+                        getActivity().stopService(intent);
                         getActivity().finish();
                     }
                 };
