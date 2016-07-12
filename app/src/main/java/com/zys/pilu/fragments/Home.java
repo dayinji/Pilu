@@ -202,7 +202,7 @@ public class Home extends Fragment {
                  * Init Service
                  */
                 Intent intentInitService = new Intent();
-                intentInitService.setAction("com.badprinter.yobey.service.PLAYER_SERVICE");
+                intentInitService.setAction("com.zys.pilu.service.PLAYER_SERVICE");
                 intentInitService.setPackage(getActivity().getPackageName());
                 intentInitService.putExtra("controlMsg", Constants.PlayerControl.INIT_SERVICE);
                 intentInitService.putExtra("listName", listName);
@@ -213,7 +213,7 @@ public class Home extends Fragment {
                  * Init the Bottom Control Area
                  */
                 Intent intent = new Intent();
-                intent.setAction("com.badprinter.yobey.service.PLAYER_SERVICE");
+                intent.setAction("com.zys.pilu.service.PLAYER_SERVICE");
                 intent.setPackage(getActivity().getPackageName());
                 intent.putExtra("controlMsg", Constants.PlayerControl.INIT_GET_CURRENT_INFO);
                 getActivity().startService(intent);
@@ -223,13 +223,13 @@ public class Home extends Fragment {
                         Constants.Preferences.PREFERENCES_KEY, Context.MODE_PRIVATE);
                 int hasNotify = sharedPref.getInt(Constants.Preferences.PREFERENCES_NOTIFY, Context.MODE_PRIVATE);
                 if (hasNotify == 1) {
-                    Intent intent1 = new Intent("com.badprinter.yobey.service.PLAYER_SERVICE");
+                    Intent intent1 = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
                     intent1.setPackage(getActivity().getPackageName());
                     intent1.putExtra("hasNotify", true);
                     intent1.putExtra("controlMsg", Constants.PlayerControl.UPDATE_NOTIFY);
                     getActivity().startService(intent1);
                 } else {
-                    Intent intent1 = new Intent("com.badprinter.yobey.service.PLAYER_SERVICE");
+                    Intent intent1 = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
                     intent1.setPackage(getActivity().getPackageName());
                     intent1.putExtra("hasNotify", false);
                     intent1.putExtra("controlMsg", Constants.PlayerControl.UPDATE_NOTIFY);
@@ -287,17 +287,17 @@ public class Home extends Fragment {
         @Override
         public void onClick(View view) {
             Intent intent = new Intent();
-            intent.setAction("com.zys.pil.service.PLAYER_SERVICE");
+            intent.setAction("com.zys.pilu.service.PLAYER_SERVICE");
             intent.setPackage(getActivity().getPackageName());
             switch (view.getId()) {
                 case R.id.playBt:
                     if (isPlay == false) {
                         intent.putExtra("controlMsg", Constants.PlayerControl.CONTINUE_PLAYING_MSG);
+                        Log.e(TAG, "play click");
                     } else {
                         intent.putExtra("controlMsg", Constants.PlayerControl.PAUSE_PLAYING_MSG);
                     }
                     getActivity().startService(intent);
-                    Log.e(TAG, "play click");
                     break;
                 case R.id.nextBt:
                     intent.putExtra("controlMsg", Constants.PlayerControl.NEXT_SONG_MSG);

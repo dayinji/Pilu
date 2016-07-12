@@ -149,6 +149,7 @@ public class PlayerService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags,  int startId) {
         Log.e(TAG, "intent == null? " + (intent == null));
+        Log.e(TAG, intent.getExtras().getString("controlMsg"));
         switch (intent.getExtras().getString("controlMsg")) {
             case Constants.PlayerControl.PRE_SONG_MSG:
                 if (currentTime > 20*1000 && currentTime < duration - 30*1000)
@@ -180,7 +181,6 @@ public class PlayerService extends Service {
                 updateCurrentTime(intent.getExtras().getInt("currentTime"));
                 break;
             case Constants.PlayerControl.INIT_GET_CURRENT_INFO:
-                Log.e(TAG, "INIT_GET_CURRENT_INFO");
                 // Only for Get Current SongId And Other Info
                 break;
             case Constants.PlayerControl.CHANGE_MODE:
