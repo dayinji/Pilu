@@ -116,12 +116,12 @@ public class SongList extends SwipeBackActivity implements View.OnClickListener{
 
         mySongListAdapter = new SongListAdapter(songList, currentSongId, listName);
         songListView.setAdapter(mySongListAdapter);
-        songListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        /*songListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
             }
-        });
+        });*/
         songListView.setVerticalScrollBarEnabled(false);
 
         listReceiver = new ListReceiver();
@@ -184,8 +184,6 @@ public class SongList extends SwipeBackActivity implements View.OnClickListener{
         super.onDestroy();
     }
 
-
-
     /*
      * Find All Views When Create the Home Activity
      */
@@ -217,7 +215,6 @@ public class SongList extends SwipeBackActivity implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
-
         Intent intent = new Intent();
         intent.setAction("com.zys.pilu.service.PLAYER_SERVICE");
         intent.setPackage(getPackageName());
@@ -262,9 +259,7 @@ public class SongList extends SwipeBackActivity implements View.OnClickListener{
                 break;
             default:
                 break;
-
         }
-
     }
 
     /*
@@ -307,8 +302,6 @@ public class SongList extends SwipeBackActivity implements View.OnClickListener{
                 default:
                     break;
             }
-
-
         }
     }
 
