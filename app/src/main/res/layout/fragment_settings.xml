@@ -34,7 +34,7 @@
                 android:text="睡眠模式"
                 style="@style/settingTiteStyle"/>
             <TextView
-                android:text="定一个时间 / YoBey伴你入眠"
+                android:text="定一个时间 / Pilu伴你入眠"
                 style="@style/settingDetailStyle"/>
         </LinearLayout>
         <TextView
