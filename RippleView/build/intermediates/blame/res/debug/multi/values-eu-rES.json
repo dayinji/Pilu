@@ -383,6 +383,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\values-eu-rES\\values-eu-rES.xml",
@@ -2308,5 +2309,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

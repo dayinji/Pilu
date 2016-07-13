@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zzx\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\values-ka-rGE\\values-ka-rGE.xml",
         "map": [
             {
@@ -1541,6 +1542,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\values-ka-rGE\\values-ka-rGE.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\values-ka-rGE\\values-ka-rGE.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {

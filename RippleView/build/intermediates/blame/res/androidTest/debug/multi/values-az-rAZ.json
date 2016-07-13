@@ -364,6 +364,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-az-rAZ\\values-az-rAZ.xml",
@@ -2194,5 +2195,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

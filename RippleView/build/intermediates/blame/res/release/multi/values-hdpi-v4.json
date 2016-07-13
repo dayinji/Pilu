@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-hdpi-v4\\values-hdpi-v4.xml",
         "map": [
             {
@@ -27,6 +28,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\lai-pilu\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-hdpi-v4\\values-hdpi-v4.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-hdpi-v4\\values-hdpi-v4.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {
@@ -50,6 +54,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\apple\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-hdpi-v4\\values-hdpi-v4.xml",
@@ -154,5 +159,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

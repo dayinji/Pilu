@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-el\\values-el.xml",
         "map": [
             {
@@ -1541,6 +1542,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\lai-pilu\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-el\\values-el.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-el\\values-el.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {

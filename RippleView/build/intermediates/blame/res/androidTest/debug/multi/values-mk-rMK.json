@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\lai-pilu\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-mk-rMK\\values-mk-rMK.xml",
         "map": [
             {
@@ -1389,6 +1390,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {
@@ -1399,7 +1403,11 @@
                     "endOffset": 158
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1418,7 +1426,11 @@
                     "endOffset": 281
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1437,7 +1449,11 @@
                     "endOffset": 385
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1456,7 +1472,11 @@
                     "endOffset": 493
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1475,7 +1495,11 @@
                     "endOffset": 579
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1494,7 +1518,11 @@
                     "endOffset": 684
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1513,7 +1541,11 @@
                     "endOffset": 803
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1532,7 +1564,11 @@
                     "endOffset": 886
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1551,7 +1587,11 @@
                     "endOffset": 968
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1570,7 +1610,11 @@
                     "endOffset": 1055
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1589,7 +1633,11 @@
                     "endOffset": 1161
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1608,7 +1656,11 @@
                     "endOffset": 1268
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1627,7 +1679,11 @@
                     "endOffset": 1369
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1646,7 +1702,11 @@
                     "endOffset": 1476
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1665,7 +1725,11 @@
                     "endOffset": 1587
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1684,7 +1748,11 @@
                     "endOffset": 1691
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1703,7 +1771,11 @@
                     "endOffset": 1789
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1722,6 +1794,7 @@
                     "endOffset": 1890
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
                     "position": {
                         "startLine": 19,
@@ -2070,6 +2143,9 @@
                 },
                 "from": {
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\apple\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mk-rMK\\values-mk-rMK.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,

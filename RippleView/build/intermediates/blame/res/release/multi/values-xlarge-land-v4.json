@@ -22,6 +22,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/RippleView/build/intermediates/res/merged/release/values-xlarge-land-v4/values-xlarge-land-v4.xml",
@@ -142,5 +143,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

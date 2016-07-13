@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-xlarge-v4\\values-xlarge-v4.xml",
         "map": [
             {
@@ -177,6 +178,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-xlarge-v4\\values-xlarge-v4.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {
@@ -187,7 +191,11 @@
                     "endOffset": 127
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -206,7 +214,11 @@
                     "endOffset": 198
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -225,7 +237,11 @@
                     "endOffset": 269
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -244,7 +260,11 @@
                     "endOffset": 339
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -263,7 +283,11 @@
                     "endOffset": 409
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -282,7 +306,11 @@
                     "endOffset": 477
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -301,7 +329,11 @@
                     "endOffset": 545
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -320,7 +352,11 @@
                     "endOffset": 609
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -339,6 +375,7 @@
                     "endOffset": 664
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "position": {
                         "startLine": 10,
@@ -1045,6 +1082,10 @@
                 "from": {
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\apple\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "position": {
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "position": {
+>>>>>>> origin/master
                         "startLine": 10,
                         "startColumn": 4,
                         "startOffset": 614,

@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/RippleView/build/intermediates/res/merged/release/values-si-rLK/values-si-rLK.xml",
         "map": [
             {
@@ -1541,6 +1542,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\apple\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-si-rLK\\values-si-rLK.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-si-rLK\\values-si-rLK.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {

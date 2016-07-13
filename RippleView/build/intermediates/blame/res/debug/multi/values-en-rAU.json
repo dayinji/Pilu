@@ -383,6 +383,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\apple\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\values-en-rAU\\values-en-rAU.xml",
@@ -2308,5 +2309,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

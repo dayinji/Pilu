@@ -9,7 +9,6 @@
     <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
-
     <application
         android:name=".common.AppContext"
         android:allowBackup="true"
@@ -18,11 +17,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activities.pilu">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <service android:name=".service.PlayerService">
@@ -33,10 +27,15 @@
 
         <activity
             android:name=".activities.SongList"
-            android:label="SongList" >
-        </activity>
+            android:label="SongList"></activity>
+        <activity android:name=".activities.Player" />
+        <activity android:name=".activities.Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".activities.Player"></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

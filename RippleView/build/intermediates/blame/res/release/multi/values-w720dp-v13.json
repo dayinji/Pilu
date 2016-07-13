@@ -22,6 +22,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-w720dp-v13\\values-w720dp-v13.xml",
@@ -142,5 +143,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

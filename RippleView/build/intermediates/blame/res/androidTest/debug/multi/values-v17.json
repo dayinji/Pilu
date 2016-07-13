@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\apple\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v17\\values-v17.xml",
         "map": [
             {
@@ -1197,6 +1198,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v17\\values-v17.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {
@@ -1208,7 +1212,11 @@
                     "endOffset": 223
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1229,7 +1237,11 @@
                     "endOffset": 451
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1250,7 +1262,11 @@
                     "endOffset": 609
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1271,7 +1287,11 @@
                     "endOffset": 759
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1292,7 +1312,11 @@
                     "endOffset": 931
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1313,7 +1337,11 @@
                     "endOffset": 1159
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1334,7 +1362,11 @@
                     "endOffset": 1401
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1355,7 +1387,11 @@
                     "endOffset": 1572
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -1376,7 +1412,11 @@
                     "endOffset": 1746
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -1397,7 +1437,11 @@
                     "endOffset": 1915
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -1418,7 +1462,11 @@
                     "endOffset": 2188
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -1439,7 +1487,11 @@
                     "endOffset": 2388
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -1460,7 +1512,11 @@
                     "endOffset": 2592
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -1481,6 +1537,7 @@
                     "endOffset": 2921
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 46,
@@ -1781,6 +1838,9 @@
                 },
                 "from": {
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-v17\\values-v17.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,

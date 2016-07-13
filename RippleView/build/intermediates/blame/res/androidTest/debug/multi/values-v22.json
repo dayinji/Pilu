@@ -83,6 +83,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\apple\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v22\\values-v22.xml",
@@ -508,5 +509,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

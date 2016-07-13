@@ -383,6 +383,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-fa\\values-fa.xml",
@@ -2308,5 +2309,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zzx\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-az-rAZ\\values-az-rAZ.xml",
         "map": [
             {
@@ -1465,6 +1466,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\apple\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-az-rAZ\\values-az-rAZ.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-az-rAZ\\values-az-rAZ.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {

@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\apple\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-ldltr-v21\\values-ldltr-v21.xml",
         "map": [
             {
@@ -73,6 +74,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/RippleView/build/intermediates/res/merged/release/values-ldltr-v21/values-ldltr-v21.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-ldltr-v21\\values-ldltr-v21.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {
@@ -94,6 +98,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zzx\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-ldltr-v21\\values-ldltr-v21.xml",
@@ -142,5 +147,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

@@ -383,6 +383,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zzx\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-mr-rIN\\values-mr-rIN.xml",
@@ -2308,5 +2309,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

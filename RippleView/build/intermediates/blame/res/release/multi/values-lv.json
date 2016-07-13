@@ -383,6 +383,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-lv\\values-lv.xml",
@@ -2308,5 +2309,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

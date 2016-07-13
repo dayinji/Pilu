@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v23\\values-v23.xml",
         "map": [
             {
@@ -200,6 +201,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zzx\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v23\\values-v23.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v23\\values-v23.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {
@@ -396,6 +400,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\lai-pilu\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v23\\values-v23.xml",
@@ -1192,5 +1197,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

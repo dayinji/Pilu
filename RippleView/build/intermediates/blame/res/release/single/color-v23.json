@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "/Users/apple/Desktop/Pilu/RippleView/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
         "source": "/Users/apple/Desktop/Pilu/RippleView/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/color-v23/abc_color_highlight_material.xml"
     },
@@ -22,5 +23,9 @@
     {
         "merged": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\lai-pilu\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_color_highlight_material.xml",
         "source": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\lai-pilu\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v23\\abc_color_highlight_material.xml"
+=======
+        "merged": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v23\\abc_color_highlight_material.xml"
+>>>>>>> origin/master
     }
 ]

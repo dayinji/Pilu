@@ -174,6 +174,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\apple\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\values-xlarge-v4\\values-xlarge-v4.xml",
@@ -1054,5 +1055,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

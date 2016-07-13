@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/RippleView/build/intermediates/res/merged/androidTest/debug/values-sw600dp-v13/values-sw600dp-v13.xml",
         "map": [
             {
@@ -158,6 +159,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {
@@ -168,7 +172,11 @@
                     "endOffset": 119
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -187,7 +195,11 @@
                     "endOffset": 189
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -206,7 +218,11 @@
                     "endOffset": 263
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -225,7 +241,11 @@
                     "endOffset": 339
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -244,7 +264,11 @@
                     "endOffset": 398
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -263,7 +287,11 @@
                     "endOffset": 469
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -282,7 +310,11 @@
                     "endOffset": 537
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> origin/master
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -301,6 +333,7 @@
                     "endOffset": 592
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
                         "startLine": 9,
@@ -931,6 +964,10 @@
                 "from": {
                     "file": "/Users/apple/Desktop/Pilu/C:\\Users\\zzx\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "position": {
+=======
+                    "file": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "position": {
+>>>>>>> origin/master
                         "startLine": 9,
                         "startColumn": 4,
                         "startOffset": 542,

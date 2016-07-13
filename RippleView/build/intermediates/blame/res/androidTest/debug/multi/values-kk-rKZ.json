@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-kk-rKZ\\values-kk-rKZ.xml",
         "map": [
             {
@@ -1541,6 +1542,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/RippleView/build/intermediates/res/merged/androidTest/debug/values-kk-rKZ/values-kk-rKZ.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-kk-rKZ\\values-kk-rKZ.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {

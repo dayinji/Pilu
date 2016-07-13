@@ -9576,6 +9576,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
@@ -57466,5 +57467,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

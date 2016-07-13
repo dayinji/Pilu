@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="/Users/apple/Desktop/Pilu/RippleView/src/androidTest/shaders"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="C:\Users\zys\Desktop\Pilu\RippleView\src\androidTest\shaders"/></dataSet></merger>
+>>>>>>> origin/master

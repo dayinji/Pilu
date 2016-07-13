@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\lai-pilu\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-port\\values-port.xml",
         "map": [
             {
@@ -25,6 +26,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zzx\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-port\\values-port.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-port\\values-port.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {
@@ -46,6 +50,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/RippleView/build/intermediates/res/merged/androidTest/debug/values-port/values-port.xml",
@@ -142,5 +147,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

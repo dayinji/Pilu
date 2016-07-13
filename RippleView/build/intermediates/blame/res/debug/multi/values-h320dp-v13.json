@@ -22,6 +22,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zzx\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\values-h320dp-v13\\values-h320dp-v13.xml",
@@ -142,5 +143,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

@@ -345,6 +345,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zzx\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-mk-rMK\\values-mk-rMK.xml",
@@ -2080,5 +2081,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

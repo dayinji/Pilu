@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-w360dp-v13\\values-w360dp-v13.xml",
         "map": [
             {
@@ -73,6 +74,9 @@
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-w360dp-v13\\values-w360dp-v13.xml",
+=======
+        "outputFile": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-w360dp-v13\\values-w360dp-v13.xml",
+>>>>>>> origin/master
         "map": [
             {
                 "to": {
@@ -94,6 +98,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\lai-pilu\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-w360dp-v13\\values-w360dp-v13.xml",
@@ -142,5 +147,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]

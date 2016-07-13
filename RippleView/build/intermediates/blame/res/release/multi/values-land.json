@@ -117,6 +117,7 @@
                 }
             }
         ]
+<<<<<<< HEAD
     },
     {
         "outputFile": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\res\\merged\\release\\values-land\\values-land.xml",
@@ -712,5 +713,7 @@
                 }
             }
         ]
+=======
+>>>>>>> origin/master
     }
 ]
