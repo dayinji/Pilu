@@ -13,11 +13,7 @@ import com.zys.pilu.utils.LyricUtil;
 import java.util.List;
 
 /**
-<<<<<<< HEAD
- * Created by tongyang on 16/7/12.
-=======
  * Created by zys on 2016/7/12.
->>>>>>> origin/master
  */
 public class Lyric extends TextView {
     private final String TAG = "Lyric";
@@ -106,14 +102,10 @@ public class Lyric extends TextView {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-<<<<<<< HEAD
-        setMeasuredDimension(MeasureSpec.getSize(widthMeasureSpec), screenH + lyricList.size() * dy);
-=======
         if (lyricList != null)
             setMeasuredDimension(MeasureSpec.getSize(widthMeasureSpec), screenH + lyricList.size() * dy);
         else
             setMeasuredDimension(MeasureSpec.getSize(widthMeasureSpec), screenH);
->>>>>>> origin/master
     }
 
     public void setCurrentTime(int currentTime) {

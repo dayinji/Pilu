@@ -1,17 +1,6 @@
 package com.zys.pilu.customviews;
 
 import android.content.Context;
-<<<<<<< HEAD
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.PixelFormat;
-import android.graphics.Typeface;
-import android.os.Handler;
-import android.os.Message;
-import android.view.Gravity;
-import android.view.MotionEvent;
-=======
 import android.content.Intent;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -26,15 +15,11 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
->>>>>>> origin/master
 import android.view.WindowManager;
 import android.widget.TextView;
 
 import com.zys.pilu.R;
-<<<<<<< HEAD
-=======
 import com.zys.pilu.common.Constants;
->>>>>>> origin/master
 import com.zys.pilu.utils.LyricUtil;
 
 import java.util.ArrayList;
@@ -109,11 +94,7 @@ public class WindowLyric extends TextView {
 
         params = new WindowManager.LayoutParams();
         params.type = WindowManager.LayoutParams.TYPE_SYSTEM_ALERT
-<<<<<<< HEAD
-                | WindowManager.LayoutParams.TYPE_SYSTEM_OVERLAY;// 设置窗口类型为系统级
-=======
                 /*| WindowManager.LayoutParams.TYPE_SYSTEM_OVERLAY*/;// 设置窗口类型为系统级
->>>>>>> origin/master
         params.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL
                 | WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE;
         // |WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
@@ -207,13 +188,6 @@ public class WindowLyric extends TextView {
         timeList = lyricUtil.getTimeList();
         id = 0;
         currentTime = 0;
-<<<<<<< HEAD
-        text1 = lyricList.get(0);
-        if (lyricList.size() > 1)
-            text2 = lyricList.get(1);
-        else
-            text2 = "";
-=======
         if (lyricList != null && lyricList.size() != 0) {
             text1 = lyricList.get(0);
             if (lyricList.size() > 1)
@@ -224,7 +198,6 @@ public class WindowLyric extends TextView {
             text1 ="歌词获取失败";
             text2 = "";
         }
->>>>>>> origin/master
     }
     public void setCurrentTime(int currentTime) {
         this.currentTime = currentTime;
@@ -262,8 +235,4 @@ public class WindowLyric extends TextView {
         int getCurrentTime();
     }
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/master

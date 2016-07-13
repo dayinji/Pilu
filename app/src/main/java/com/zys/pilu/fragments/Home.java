@@ -41,7 +41,7 @@ import in.srain.cube.views.ptr.indicator.PtrIndicator;
 
 public class Home extends Fragment {
 
-    private String TAG = "HOME";
+    private String TAG = "HOME1";
     private View root;
     private CircleImageView playingPhoto;
     private ImageView preBt;

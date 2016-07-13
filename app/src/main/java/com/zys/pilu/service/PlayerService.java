@@ -44,8 +44,6 @@ public class PlayerService extends Service{
     private boolean isPlay = false;
     private String listName;
     private boolean hasNotify = true;
-    private WindowLyric wl;
-    private WindowManager wm;
     private NotificationManager nm;
     private WindowLyric wl;
     private WindowManager wm;
@@ -549,148 +547,8 @@ public class PlayerService extends Service{
             mRemoteViews.setTextViewText(R.id.lockText, "点击此处锁定歌词");
         }
 
-<<<<<<< HEAD
-    public void showButtonNotify(){
-        Song song = songList.get(current);
-        android.support.v7.app.NotificationCompat.Builder mBuilder = new android.support.v7.app.NotificationCompat.Builder(this);
-        RemoteViews mRemoteViews = new RemoteViews(getPackageName(), R.layout.notify_player);
-
-        mRemoteViews.setTextViewText(R.id.playingArtist, song.getArtist());
-        mRemoteViews.setTextViewText(R.id.playingName, song.getName());
-        mRemoteViews.setImageViewBitmap(R.id.playingPhoto, SongProvider.getArtwork(this,
-                currentSongId, songList.get(current).getAlbumId(), false, false));
-
-        if (isPlay) {
-            mRemoteViews.setImageViewResource(R.id.playBt, R.drawable.pausetoplay_00000);
-        } else {
-            mRemoteViews.setImageViewResource(R.id.playBt, R.drawable.playtopause_00000);
-        }
-
-        // Intents
-        final Intent playIntent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
-        final Intent nextIntent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
-        final Intent activityIntent = new Intent(this, Welcome.class);
-
-        // Make Sure That Returing App Instead of New A Activity
-        activityIntent.setAction(Intent.ACTION_MAIN);
-        activityIntent.addCategory(Intent.CATEGORY_LAUNCHER);
-
-        if (isPlay)
-            playIntent.putExtra("controlMsg", Constants.PlayerControl.PAUSE_PLAYING_MSG);
-        else
-            playIntent.putExtra("controlMsg", Constants.PlayerControl.CONTINUE_PLAYING_MSG);
-        nextIntent.putExtra("controlMsg", Constants.PlayerControl.NEXT_SONG_MSG);
-
-        PendingIntent intent_play = PendingIntent.getService(this, 1, playIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-        PendingIntent intent_next = PendingIntent.getService(this, 2, nextIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-        PendingIntent intent_activity = PendingIntent.getActivity(this, 3, activityIntent, 0);
-
-        mRemoteViews.setOnClickPendingIntent(R.id.playBt, intent_play);
-        mRemoteViews.setOnClickPendingIntent(R.id.nextBt, intent_next);
-        mRemoteViews.setOnClickPendingIntent(R.id.all, intent_activity);
-
-        mBuilder.setTicker("YoBey")
-                .setWhen(System.currentTimeMillis())
-                .setPriority(Notification.PRIORITY_DEFAULT)
-                .setOngoing(true)
-                .setContent(mRemoteViews)
-                .setContentIntent(intent_play)
-                .setContentIntent(intent_next)
-                .setContentIntent(intent_activity)
-                .setSmallIcon(R.drawable.ic_launcher);
-
-        nm.notify(950520, mBuilder.build());
-    }
-    private void showLyricNotify() {
-        android.support.v7.app.NotificationCompat.Builder mBuilder = new android.support.v7.app.NotificationCompat.Builder(this);
-        RemoteViews mRemoteViews = new RemoteViews(getPackageName(), R.layout.notify_lyric);
-
-        if (!isShowWl) {
-            return;
-        }
-        if (isLockWL) {
-            mRemoteViews.setTextViewText(R.id.lockText, "点击此处解锁歌词");
-        } else {
-            mRemoteViews.setTextViewText(R.id.lockText, "点击此处锁定歌词");
-        }
-
-        // Intent
-        final Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
-
-        if (isLockWL)
-            intent.putExtra("controlMsg", Constants.PlayerControl.UNLOCK_LYRIC);
-        else
-            intent.putExtra("controlMsg", Constants.PlayerControl.LOCK_LYRIC);
-
-        PendingIntent intent_lock = PendingIntent.getService(this, 4, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-
-        mRemoteViews.setOnClickPendingIntent(R.id.lyricNotify, intent_lock);
-
-        mBuilder.setTicker("YoBey")
-                .setWhen(System.currentTimeMillis())
-                .setPriority(Notification.PRIORITY_DEFAULT)
-                .setOngoing(true)
-                .setContent(mRemoteViews)
-                .setContentIntent(intent_lock)
-                .setSmallIcon(R.drawable.ic_launcher);
-
-        nm.notify(950521, mBuilder.build());
-    }
-    private void initWindowLyric() {
-        Song song = songList.get(current);
-        wl = new WindowLyric(this, song.getUrl(), song.getName(), song.getArtist());
-        wl.callBack = new WindowLyric.CallBack() {
-            @Override
-            public int getCurrentTime() {
-                return player.getCurrentPosition();
-            }
-        };
-        // Init isLock
-        int isLock = sharedPref.getInt(Constants.Preferences.PREFERENCES_WINDOWLYRIC_LOCK, 0);
-        if (isLock == 1) {
-            isLockWL = true;
-            WindowManager.LayoutParams params = wl.params;
-            params.flags = WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL
-                    | WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE
-                    |WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE;
-        } else {
-            isLockWL = false;
-        }
-        Log.e(TAG, "isLock: "+ isLock);
-        // Init Y
-        int y = sharedPref.getInt(Constants.Preferences.PREFERENCES_WINDOWLYRIC_Y, 100);
-        wl.params.y = y;
-        Log.e(TAG, "y: "+ y);
-        // Init isShow
-        int isShow = sharedPref.getInt(Constants.Preferences.PREFERENCES_WINDOWLYRIC_SHOW, 1);
-        Log.e(TAG, "isShow: "+ isShow);
-        if (isShow == 1) {
-            showWl();
-            showLyricNotify();
-        } else {
-            hideWl();
-            nm.cancel(950521);
-        }
-    }
-    private void changeWl() {
-        Song song = songList.get(current);
-        wl.initLyric(song.getUrl(), song.getName(), song.getArtist());
-    }
-    private void hideWl() {
-        if (wl.isShown())
-            wm.removeView(wl);
-        isShowWl = false;
-        nm.cancel(950521);
-    }
-    private void showWl() {
-        wm.addView(wl, wl.params);
-        isShowWl = true;
-    }
-
-=======
         // Intent
         Intent intent = new Intent("com.zys.pilu.service.PLAYER_SERVICE");
->>>>>>> origin/master
 
         if (isLockWL)
             intent.putExtra("controlMsg", Constants.PlayerControl.UNLOCK_LYRIC);

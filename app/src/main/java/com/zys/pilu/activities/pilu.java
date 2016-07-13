@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class pilu extends AppCompatActivity {
-    private String TAG = "Yobey";
+    private String TAG = "Pilu";
     private RadioGroup tabs;
     private RadioButton tab_home;
     private RadioButton tab_list;

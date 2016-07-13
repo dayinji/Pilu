@@ -1,31 +1,10 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "/Users/apple/Desktop/Pilu/C:\\Users\\zzx\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "/Users/apple/Desktop/Pilu/C:\\Users\\zzx\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-v23\\abc_control_background_material.xml"
-    },
-    {
         "merged": "/Users/apple/Desktop/Pilu/RippleView/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
         "source": "/Users/apple/Desktop/Pilu/RippleView/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-v23/abc_control_background_material.xml"
     },
     {
-        "merged": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "/Users/apple/Desktop/Pilu/C:\\Users\\Administrator\\Desktop\\pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-v23\\abc_control_background_material.xml"
-    },
-    {
         "merged": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
         "source": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-v23\\abc_control_background_material.xml"
-    },
-    {
-        "merged": "/Users/apple/Desktop/Pilu/C:\\Users\\apple\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "/Users/apple/Desktop/Pilu/C:\\Users\\apple\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-v23\\abc_control_background_material.xml"
-    },
-    {
-        "merged": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\lai-pilu\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "/Users/apple/Desktop/Pilu/C:\\Users\\zys\\Desktop\\lai-pilu\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-v23\\abc_control_background_material.xml"
-=======
-        "merged": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "C:\\Users\\zys\\Desktop\\Pilu\\RippleView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-v23\\abc_control_background_material.xml"
->>>>>>> origin/master
     }
 ]
