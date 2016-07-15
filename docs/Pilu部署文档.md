@@ -5,7 +5,7 @@
 
 
 ### With APK
-APK下载链接：xxx
+APK下载链接：https://www.pgyer.com/PILU
 请直接下载安装即可运行。
 
 ### With Android Studio
@@ -18,11 +18,11 @@ APK下载链接：xxx
 
 2. 打开Android Studio，File -> Open，选择刚刚下载到本地的Pilu文件夹，点击OK，即完成导入。
 	
-	![](http://ww2.sinaimg.cn/large/6a3dd34djw1f5tgqaprv1j21kw0i3dju.jpg)￼
+	![](http://ww2.sinaimg.cn/large/6a3dd34djw1f5tgqaprv1j21kw0i3dju.jpg)
 
 3. 连接Android设备，点击Run即可运行；选择设备时请选择与电脑连接的真机。
 	![](http://ww3.sinaimg.cn/large/6a3dd34djw1f5tgolxv0dj21kw10cgqz.jpg)
-	![](http://ww1.sinaimg.cn/large/6a3dd34djw1f5tgoo1f4ij21kw0zvai7.jpg)￼
+	![](http://ww1.sinaimg.cn/large/6a3dd34djw1f5tgoo1f4ij21kw0zvai7.jpg)
 
 
 
